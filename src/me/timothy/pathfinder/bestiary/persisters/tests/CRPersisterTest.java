@@ -16,7 +16,7 @@ public abstract class CRPersisterTest {
 	public void testPersist() {
 		ChallengeRating cr = new ChallengeRating(0, "1/2", 200, 65, 50, 35);
 		persister.persist(cr);
-		assertTrue("Expected strictly psoitive id, but got " + cr.id, cr.id > 0);
+		assertTrue("Expected strictly positive id, but got " + cr.id, cr.id > 0);
 	}
 	
 	@Test
