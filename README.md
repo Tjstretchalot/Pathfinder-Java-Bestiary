@@ -10,7 +10,7 @@ The project was created in Eclipse, and the installation instructions assume Mar
 4. Add JUnit 4 to the build path. JUnit 4 should be installed by default in eclipse, but information about download and installation is available [here](http://junit.org/).
 5. Download this project either by downloading the zip or forking and pulling, or just pulling. [More information about forking](https://help.github.com/articles/fork-a-repo/). Extract directly into the directory the project is in, such that the downloaded src folder overwrites the original src folder.
 6. Open eclipse, highlight the project in the project explorer on the left, and press F5 to refresh the project. This should populate eclipses model.
-7. *Optional* Copy or move the pathfinder.db to <user.home>/My Games/Pathfinder/pathfinder.db for it to be used as the default database by the SqlitePersisterFactory.
+7. *Optional* Copy or move the pathfinder.db to \<user.home\>/My Games/Pathfinder/pathfinder.db for it to be used as the default database by the SqlitePersisterFactory.
 
 ## Usage
 See the documentation for me.timothy.pathfinder.bestiary.persisters.Persister for a general overview of how to use this database. See me.timothy.pathfinder.bestiary.apps.EncounterTables for a primitive example of generating the encounter tables. See any JUnit test case for the sqlite library for examples on how to use any specific Persister. 
