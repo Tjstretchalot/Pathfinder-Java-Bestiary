@@ -1,0 +1,5 @@
+me.timothy.pathfinder.bestiary.models
+me.timothy.pathfinder.bestiary.persisters
+me.timothy.pathfinder.bestiary.persisters.impl.sqlite
+me.timothy.pathfinder.bestiary.persisters.tests
+me.timothy.pathfinder.bestiary.persisters.tests.sqlite
